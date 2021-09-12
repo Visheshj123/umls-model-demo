@@ -16,8 +16,7 @@ document.querySelector('.form-select').addEventListener('change', (e) => {
 
 //Event to get predictions on AUIs
 document.querySelector('.form-signin').addEventListener('submit', (e) => {
-    e.preventDefaul\
-    t()
+    e.preventDefault()
     aui1 = document.querySelector('.aui1').value
     aui2 = document.querySelector('.aui2').value
     //fetch prediction score from API
